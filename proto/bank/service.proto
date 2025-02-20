@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package bank;
 
-import "my-grpc-proto/proto/bank/type/account.proto";
+import "proto/bank/type/account.proto";
 
 option go_package = "github.com/chokutomoe10/my-grpc-proto/protogen/go/bank";
 
